@@ -838,6 +838,17 @@ p {
     width: 100%;
     position: absolute;
   }
+  
+.aboutSection h1,
+#experienceSection h1,
+.myIntro h1 {
+  font-size: 1.25rem;
+  color: black;
+}
+  .homePage::after{
+    top: 85%;
+    height: 15%;
+  }
 
   .headerContent .topics {
     display: none;
