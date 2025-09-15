@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
   //download cv
   document.getElementById("downloadBtn").addEventListener("click", () => {
 
-    const fileUrl = "images/VigneshR_resume.pdf";
-    const fileName = "vignesh_resume";
+    const fileUrl = "images/Vignesh-resume.pdf";
+    const fileName = "vignesh-resume";
 
     const anchor = document.createElement("a");
     anchor.href = fileUrl;
